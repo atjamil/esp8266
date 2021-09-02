@@ -24,23 +24,23 @@
  
  */
 #define _DISABLE_TLS_ //This will solve problem to connect to thinger.io server
-#define _DEBUG_
+#define _DEBUG_ //FOR DEBUGGING
 #include <ThingerESP8266.h>
 #include "AnotherIFTTTWebhook.h"
 #include <ESP8266WiFi.h>
 
 //Thinger.io
-#define USERNAME "atjamil"
-#define DEVICE_ID "esp8266_2"
-#define DEVICE_CREDENTIAL "2014polar"
+#define USERNAME "username"
+#define DEVICE_ID "device_id"
+#define DEVICE_CREDENTIAL "device_credential"
 
 // Set IFTTT Webhooks event name and key
-#define IFTTT_Key "dHXvG5qbGylRXe2PjHX8Py"
-#define IFTTT_Event "ESP8266_SOIL_MOISTURE"
+#define IFTTT_Key "your_key"
+#define IFTTT_Event "your_event"
 
 //Local wifi setting
-#define SSID "atjamil@unifi"
-#define SSID_PASSWORD "2014polar"
+#define SSID "SSID"
+#define SSID_PASSWORD "password"
 
 /* Change these values based on your calibration values */
 #define soilWet 500   // Define max value we consider soil 'wet'
