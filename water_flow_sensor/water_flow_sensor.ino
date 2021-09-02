@@ -22,13 +22,13 @@
 #include <ESP8266WiFi.h>
 
 //Thinger.io (You must have account with Thinger.io)
-#define USERNAME "atjamil"
-#define DEVICE_ID "esp8266_1"
-#define DEVICE_CREDENTIAL "2014polar"
+#define USERNAME "username"
+#define DEVICE_ID "device_id"
+#define DEVICE_CREDENTIAL "credential"
 
 // Set IFTTT Webhooks event name and key
-#define IFTTT_Key "dHXvG5qbGylRXe2PjHX8Py"
-#define IFTTT_Event "ESP8266_notification_test"
+#define IFTTT_Key "your_key"
+#define IFTTT_Event "your_event"
 
 //Local wifi setting
 #define SSID "YOUR_SSID"
